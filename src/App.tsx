@@ -1,11 +1,13 @@
 import React from "react";
-import FCAS from "./pages/FCAS";
+import ExampleJSPage from "./pages/ExampleJSPage";
+import ExampleTSPage from "./pages/ExampleTSPage";
 import "./css/App.css";
 
 function App() {
   return (
-    <div className="App">
-      <FCAS />
+    <div>
+      <ExampleJSPage />
+      {/* <ExampleTSPage /> */}
     </div>
   );
 }
