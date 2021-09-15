@@ -6,8 +6,8 @@ import "./css/App.css";
 function App() {
   return (
     <div>
-      <ExampleJSPage />
-      {/* <ExampleTSPage /> */}
+      {/* <ExampleJSPage /> */}
+      <ExampleTSPage />
     </div>
   );
 }
