@@ -1,5 +1,4 @@
 import React from "react";
-import { getTransfers, Transfer } from "../api/api";
 
 type Props = {};
 
@@ -8,8 +7,8 @@ const ExampleTSPage: React.FC<Props> = () => {
   //
 
   return (
-    <div>
-      <h1>Example Typescript Page</h1>
+    <div style={{ margin: 20 }}>
+      <h1>Terra - Totals by Currency</h1>
     </div>
   );
 };

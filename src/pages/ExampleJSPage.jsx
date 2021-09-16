@@ -1,5 +1,4 @@
 import React from 'react';
-import { getTransfers } from "../api/api"
 
 
 const ExampleJSPage = () => {
@@ -8,7 +7,7 @@ const ExampleJSPage = () => {
 
   return (
     <div>
-      <h1>Example Javascript Page</h1>
+      <h1>Terra - Totals by Currency</h1>
     </div>
   );
 }
