@@ -1,13 +1,11 @@
 import React from "react";
-import ExampleJSPage from "./pages/ExampleJSPage";
-import ExampleTSPage from "./pages/ExampleTSPage";
+import Index from "./pages/index";
 import "./css/App.css";
 
 function App() {
   return (
     <div>
-      {/* <ExampleJSPage /> */}
-      <ExampleTSPage />
+      <Index></Index>
     </div>
   );
 }
